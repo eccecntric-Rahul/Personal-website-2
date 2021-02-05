@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+    color: #40514E;
+}
+
+h1{
+
+  font-family: 'Sacramento';
+  font-size: 5.625rem;
+  padding-top: 130px;
+  color: #66bfbf;
+  margin: 0;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  line-height: 2;
+  margin: 0;
+}
+
+h3{
+  font-family: 'Montserrat';
+  color:  #11999E;
+}
+
+hr
+{
+  border: none;
+  border-top: 5px dotted grey;
+  background: white;
+  width: 4%;
+
+}
+
+
+.top-container
+{
+  position: relative;
+  background: #EAF6F6;
+  margin: 0;
+}
+
+.bottom-container
+{
+  background-color: #66BFBF;
+}
+
+.cloud1
+{
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.cloud2
+{
+  position: absolute;
+  left: 250px;
+  top: 380px;
+}
+
+.skill-row
+{
+  width: 50%;
+  margin: 50px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+
+}
+
+.web
+{
+  width: 20%;
+  float:left;
+  margin: 0 30px 30px 0;
+
+}
+
+.python{
+  width: 18%;
+  float:right;
+  margin: 0 0 30px 30px;
+}
+
+
+.profile img
+{
+  width: 10%;
+
+}
+
+.profile p
+{
+  width: 500px;
+  margin: 0 auto 0 auto;
+  font-weight: bold;
+  line-height: 2;
+  word-spacing: 1mm;
+}
+
+.bottom-container p
+{
+  color: #EAF6F6;
+  padding:25px 0;
+}
+
+.contact-me, .profile, .skills
+{
+  margin: 50px 0;
+}
+
+.contact-me
+{
+  line-height: 3;
+}
+.btn
+{ display: inline;
+  background-color: #11999E;
+  border-style: outset;
+  border-radius: 5px;
+  padding: 7px 18px 7px 18px;
+  box-shadow: 2px 2px #66BFBF;
+
+}
+.btn:hover
+{
+  background-color: #30e3cb;
+}
+.btn-link
+{
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  color: #EAF6F6;
+}
+
+.footer-link
+{
+  color:  #11999E;
+  font-family: 'Montserrat';
+  text-decoration: none;
+  position: relative;
+  top: 25px;
+  margin-right: 10px;
+  font-weight: bolder;
+
+}
+a:hover
+{
+  color: #EAF6F6;
+}
+
+.problem
+{
+  width: 25%;
+  margin: 0 auto;
+  line-height: 2;
+  letter-spacing: 0.3mm;
+}
